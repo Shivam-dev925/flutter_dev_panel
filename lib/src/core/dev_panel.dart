@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_dev_panel/src/core/dev_panel_controller.dart';
-import 'package:flutter_dev_panel/src/models/dev_panel_config.dart';
-import 'package:flutter_dev_panel/src/models/log_entry.dart';
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
-import 'package:flutter_dev_panel/src/plugins/log_viewer_plugin.dart';
-import 'package:flutter_dev_panel/src/ui/dev_panel_overlay.dart';
-import 'package:flutter_dev_panel/src/utils/shake_detector.dart';
+import 'package:flutter_inspector/src/core/dev_panel_controller.dart';
+import 'package:flutter_inspector/src/models/dev_panel_config.dart';
+import 'package:flutter_inspector/src/models/log_entry.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/plugins/log_viewer_plugin.dart';
+import 'package:flutter_inspector/src/ui/dev_panel_overlay.dart';
+import 'package:flutter_inspector/src/utils/shake_detector.dart';
 
 /// Main DevPanel class for initializing and managing the dev panel
 class DevPanel {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
 
 /// Plugin to view and edit local storage (SharedPreferences, etc.)
 class StorageViewerPlugin extends DevPanelPlugin {

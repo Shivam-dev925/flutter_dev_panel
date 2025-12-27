@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
-import 'package:flutter_dev_panel/src/models/feature_flag.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/models/feature_flag.dart';
 
 /// Plugin to manage feature flags
 class FeatureFlagsPlugin extends DevPanelPlugin {

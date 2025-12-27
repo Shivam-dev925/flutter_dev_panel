@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_dev_panel/src/core/dev_panel_controller.dart';
+import 'package:flutter_inspector/src/core/dev_panel_controller.dart';
 
 /// The main overlay UI for the DevPanel
 class DevPanelOverlay extends StatefulWidget {

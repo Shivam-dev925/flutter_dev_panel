@@ -102,7 +102,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_dev_panel:
+  flutter_inspector:
     dependency: "direct main"
     description:
       path: ".."

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_dev_panel/src/models/dev_panel_config.dart';
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/models/dev_panel_config.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
 
 /// Controller for managing DevPanel state
 class DevPanelController extends ChangeNotifier {

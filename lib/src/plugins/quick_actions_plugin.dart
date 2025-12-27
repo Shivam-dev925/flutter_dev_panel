@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
-import 'package:flutter_dev_panel/src/models/quick_action.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/models/quick_action.dart';
 
 /// Plugin to execute quick actions
 class QuickActionsPlugin extends DevPanelPlugin {

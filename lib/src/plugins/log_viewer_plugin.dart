@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
-import 'package:flutter_dev_panel/src/models/log_entry.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/models/log_entry.dart';
 
 /// Plugin to view in-app logs
 class LogViewerPlugin extends DevPanelPlugin {

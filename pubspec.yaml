@@ -1,9 +1,9 @@
-name: flutter_dev_panel
+name: flutter_inspector
 description: An in-app developer toolkit for Flutter. Inspect network calls, view storage, toggle feature flags, and debug your app without external tools.
 version: 0.1.0
-homepage: https://github.com/Shivam-dev925/flutter_dev_panel
-repository: https://github.com/Shivam-dev925/flutter_dev_panel
-issue_tracker: https://github.com/Shivam-dev925/flutter_dev_panel/issues
+homepage: https://github.com/Shivam-dev925/flutter_inspector
+repository: https://github.com/Shivam-dev925/flutter_inspector
+issue_tracker: https://github.com/Shivam-dev925/flutter_inspector/issues
 
 environment:
   sdk: ">=3.6.0 <4.0.0"

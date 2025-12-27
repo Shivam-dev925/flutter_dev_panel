@@ -1,4 +1,4 @@
-# FVM Setup Guide for flutter_dev_panel
+# FVM Setup Guide for flutter_inspector
 
 ## ✅ Current Configuration
 
@@ -15,7 +15,7 @@ Your project is now using **Flutter 3.38.5** with **Dart 3.10.4** via FVM (Flutt
 The following files were created:
 
 ```
-flutter_dev_panel/
+flutter_inspector/
 ├── .fvm/                    # FVM cache directory (ignored in git)
 ├── .fvmrc                   # FVM version config
 └── .gitignore              # Already configured to ignore FVM files
@@ -121,7 +121,7 @@ fl pub get      # instead of fvm flutter pub get
 ### 1. Run Example App
 
 ```bash
-cd flutter_dev_panel
+cd flutter_inspector
 fvm flutter run -d chrome  # Web
 fvm flutter run -d iPhone  # iOS Simulator
 fvm flutter run            # Connected device
@@ -161,8 +161,8 @@ fvm use 3.38.5
 
 # Add your package
 # Edit pubspec.yaml to add:
-# flutter_dev_panel:
-#   path: /path/to/flutter_dev_panel
+# flutter_inspector:
+#   path: /path/to/flutter_inspector
 
 fvm flutter pub get
 fvm flutter run
@@ -296,8 +296,8 @@ Or use FVM in CI:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Shivam-dev925/flutter_dev_panel
-cd flutter_dev_panel
+git clone https://github.com/Shivam-dev925/flutter_inspector
+cd flutter_inspector
 
 # 2. Install FVM if not already installed
 dart pub global activate fvm
@@ -316,7 +316,7 @@ fvm flutter run
 
 ```bash
 # Switch to project directory
-cd flutter_dev_panel
+cd flutter_inspector
 
 # FVM automatically uses the version in .fvmrc
 fvm flutter run

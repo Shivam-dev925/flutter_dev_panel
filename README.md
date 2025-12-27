@@ -1,17 +1,17 @@
-# flutter_dev_panel
+# flutter_inspector
 
 **An in-app developer toolkit for Flutter.** Inspect network calls, view storage, toggle feature flags, and debug your app without external tools.
 
-[![pub package](https://img.shields.io/pub/v/flutter_dev_panel.svg)](https://pub.dev/packages/flutter_dev_panel)
+[![pub package](https://img.shields.io/pub/v/flutter_inspector.svg)](https://pub.dev/packages/flutter_inspector)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > The in-app developer toolkit Flutter deserves. Bring React Native's DX to Flutter.
 
-## ✨ Why flutter_dev_panel?
+## ✨ Why flutter_inspector?
 
 Every Flutter developer has wished for better in-app debugging tools. While Flutter DevTools is powerful, it requires USB connection, desktop access, and can't be used in production builds or shared with QA teams.
 
-**flutter_dev_panel** solves this by providing:
+**flutter_inspector** solves this by providing:
 - 📱 **In-app access** - No external tools needed
 - 🤝 **QA-friendly** - Non-technical team members can inspect app state
 - 🚀 **Production-safe** - Built-in guards prevent accidental release exposure
@@ -85,7 +85,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_dev_panel: ^0.1.0
+  flutter_inspector: ^0.1.0
 
   # For network inspection
   dio: ^5.7.0          # if using Dio
@@ -105,7 +105,7 @@ flutter pub get
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_dev_panel/flutter_dev_panel.dart';
+import 'package:flutter_inspector/flutter_inspector.dart';
 import 'package:dio/dio.dart';
 
 // Global instances for easy access
@@ -546,13 +546,13 @@ Inspired by:
 
 ## 📧 Support
 
-- **Issues**: [GitHub Issues](https://github.com/Shivam-dev925/flutter_dev_panel/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Shivam-dev925/flutter_dev_panel/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Shivam-dev925/flutter_inspector/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Shivam-dev925/flutter_inspector/discussions)
 - **Email**: your-email@example.com
 
 ## ⭐ Show Your Support
 
-If this package helps you, please give it a ⭐ on [GitHub](https://github.com/Shivam-dev925/flutter_dev_panel)!
+If this package helps you, please give it a ⭐ on [GitHub](https://github.com/Shivam-dev925/flutter_inspector)!
 
 ---
 

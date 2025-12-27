@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'dart:io' show Platform;
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
 
 /// Plugin to display app and device information
 class AppInfoPlugin extends DevPanelPlugin {

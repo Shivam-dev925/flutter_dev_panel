@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:flutter_dev_panel/src/models/network_call.dart';
+import 'package:flutter_inspector/src/models/network_call.dart';
 
 /// HTTP client wrapper that intercepts requests for DevPanel
 class DevPanelHttpClient extends http.BaseClient {

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_dev_panel/src/models/network_call.dart';
+import 'package:flutter_inspector/src/models/network_call.dart';
 
 /// Dio interceptor for capturing network calls
 class DevPanelDioInterceptor extends Interceptor {

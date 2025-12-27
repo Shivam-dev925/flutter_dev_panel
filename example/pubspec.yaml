@@ -35,8 +35,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
-  # flutter_dev_panel package (local reference)
-  flutter_dev_panel:
+  # flutter_inspector package (local reference)
+  flutter_inspector:
     path: ../
 
   # For demo purposes

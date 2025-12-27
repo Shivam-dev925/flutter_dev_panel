@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dev_panel/flutter_dev_panel.dart';
+import 'package:flutter_inspector/flutter_inspector.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:dio/dio.dart';
 import 'package:google_fonts/google_fonts.dart';

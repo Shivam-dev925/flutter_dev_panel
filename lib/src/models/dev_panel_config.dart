@@ -1,4 +1,4 @@
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
 
 /// Configuration for the DevPanel
 class DevPanelConfig {

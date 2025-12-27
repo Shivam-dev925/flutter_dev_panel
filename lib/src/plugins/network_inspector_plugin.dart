@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter_dev_panel/src/plugins/dev_panel_plugin.dart';
-import 'package:flutter_dev_panel/src/models/network_call.dart';
-import 'package:flutter_dev_panel/src/plugins/network_inspector/dio_interceptor.dart';
-import 'package:flutter_dev_panel/src/plugins/network_inspector/http_client_wrapper.dart';
+import 'package:flutter_inspector/src/plugins/dev_panel_plugin.dart';
+import 'package:flutter_inspector/src/models/network_call.dart';
+import 'package:flutter_inspector/src/plugins/network_inspector/dio_interceptor.dart';
+import 'package:flutter_inspector/src/plugins/network_inspector/http_client_wrapper.dart';
 
 /// Plugin to inspect network requests and responses
 class NetworkInspectorPlugin extends DevPanelPlugin {
